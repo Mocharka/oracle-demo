@@ -7,5 +7,5 @@ CREATE TABLE users (
    birthday VARCHAR2(50),
    photo_url VARCHAR2(100),
    group_number VARCHAR(20) NOT NULL,
-   created_at TIMESTAMP
+   created_at TIMESTAMP DEFAULT current_timestamp NOT NULL
 );
